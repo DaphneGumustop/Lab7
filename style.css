@@ -1,0 +1,10 @@
+.transition-button:hover {background-color: green; background-color: blue; color: white; padding: 10px 20px; border: none; cursor: pointer; transition: background-color 0.5s;}
+.transition-div:hover {width: 100px; height: 100px; background-color: blueviolet; transition: width 200px;}
+.transition-text:hover { font-size: 16px; transition: font-size 0.3s ; font-size: 24px}
+.transition-image:hover { width: 20px; transition: opacity 0.8s; opacity: 0.5; } 
+.scale-div:hover{ width: 100px; height: 100px; background-color: lightblue; transition: transform 0.3s; transform: scale(1.5); }
+.scale-image:hover { width: 20px; transition: transform 0.3s; transform: scale(-0.75); } 
+.translate-button:hover { padding: 10px 20px; background-color: darkcyan; color: white; border: none; cursor: pointer; transition: transform 0.3s; transform: translate(50px, 20px); }  
+.translate-div:hover { width: 100px; height: 100px; background-color: pink; transition: transform 0.3s; transform: translate(-100px, 0); }  
+.skew-heading:hover { font-size: 24px; transition: transform 0.3s; transform: skewX(20deg); } 
+.skew-paragraph:hover { font-size: 16px; transition: transform 0.3s; transform: skewY(15deg); }
